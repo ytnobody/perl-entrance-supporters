@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Perl入学式 サポーター紹介</title>
+<link rel="alternate" href="http://yourblog.example.com/" />
+<author>Perl Entrance </author>
+<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.7">Perl Riji</generator>
+<id>tag:yourblog.example.com,2015-05-09:</id>
+<updated>2015-05-09T15:01:38+09:00</updated>
+<entry>
+<title type="text">ytnobody - あずまさとし</title>
+<link href="http://yourblog.example.com/entry/ytnobody.html" />
+<author>
+<name>ytnobody</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p><img src="http://ytnobody.net/impress/perlbeginners15/img/ytnobody_char.png" alt="ytnobody" /></p>
+
+<p>1980年、函館にて生誕。人生初めてのプログラミングは、小学5年の頃にPC98上で動くBASICで作った、簡単なテキストアドベンチャー。</p>
+
+<p>Perl歴は多分13年くらい。Perl以外にはbash、C#(Unity)など。</p>
+
+<p>餃子と温泉とマイナー言語に目がない。これらがあれば生きていけるさ大丈夫。</p>
+
+<p>リリースした主なCPANモジュールは<a href="http://search.cpan.org/perldoc?Otogiri">Otogiri</a>, <a href="http://search.cpan.org/perldoc?XML::Diver">XML::Diver</a>, <a href="http://search.cpan.org/perldoc?Vector::QRCode::IntoPDF">Vector::QRCode::IntoPDF</a>など。</p>
+
+<p><a href="http://www.machidapm.org/">Machida.pm</a>首謀者、並びに <a href="http://fm-machida-pm.blogspot.jp/">マチピーFM</a>パーソナリティ。</p>
+
+<p>blog: <a href="http://blog.ytnobody.net/">All Your Bugs Are Belong To Ass</a></p>
+
+<p>twitter: <a href="https://twitter.com/ytnobody/">@ytnobody</a></p>
+]]></content>
+<id>tag:yourblog.example.com,2015-05-09:entry-ytnobody.html</id>
+<published>2015-05-09T15:01:38+09:00</published>
+<updated>2015-05-09T15:01:38+09:00</updated>
+</entry>
+</feed>
