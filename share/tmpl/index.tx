@@ -1,20 +1,16 @@
 : cascade base
 : around content -> {
 <nav>
+  <h4>サポーター</h4>
   <ul>
-    <li><a href="<: '/archives.html' | uri_for :>">Archives</a></li>
+:   for $blog.entries(limit => 50) -> $entry {
+    <li><a href="<: $entry.site_path | uri_for :>"><: $entry.title :></a></li>
+:   }
   </ul>
 </nav>
-:   for $blog.entries(limit => 10) -> $entry {
-<article>
-  <h1><a href="<: $entry.site_path | uri_for :>"><: $entry.title :></a></h1>
-  <time pubdate><: $entry.published_at().strftime('%Y-%m-%d %H:%M') :></time>
-  <: $entry.html_body_without_title() | mark_raw :>
-</article>
-:   }
 :   if $blog.tags().size() {
 <aside class="tags">
-  <h1>Tags</h1>
+  <h4>地域</h4>
   <ul class="tags">
   :     for $blog.tags() -> $tag {
   <li><a href="<: $tag.site_path | uri_for :>"><: $tag.name :>(<: $tag.count :>)</a></li>
